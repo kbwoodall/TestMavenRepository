@@ -1,0 +1,1249 @@
+button.confirm {
+    width: 75px;
+}
+
+button.yesButton {
+    width: 50px;
+}
+
+button.noButton {
+    width: 50px;
+}
+
+button.buttonControlShowPanelButton {
+    width: 25px;
+}
+
+button.controlPanelSaveButton {
+    width: 25px;
+}
+
+button.controlPanelCancelButton {
+    width: 25px;
+}
+
+button.controlPanelAddButton {
+    width: 25px;
+}
+
+button.controlPanelNextButton {
+    width: 25px;
+}
+
+button.controlPanelPreviousButton {
+    width: 25px;
+}
+
+button.controlPanelAuditButton {
+    width: 35px;
+}
+
+div.leftHandConfirmCancelFlowPanel {
+    text-align: center;
+}
+
+div.leftHandConfirmSaveFlowPanel {
+    text-align: center;
+}
+
+div.litEditableLabel {
+    color: blue;
+}
+
+textArea.dunningMessageLit {
+    color: blue;
+}
+
+hr.searchSeparatorBar {
+   text-align: left;
+   width: 100%
+}
+
+div.searchLabel {
+    font-weight: bold;
+}
+
+div.version {
+    font-size: 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.searchStatementsFlowPanel {
+   font-size: 14px;
+   left: 10px;
+   position: absolute
+}
+
+div.searchInvoicesFlowPanel {
+   font-size: 14px;
+   left: 10px;
+   position: absolute
+}
+
+table.topLineFlowPanel {
+    width: 1200px;
+}
+
+div.topLineMessage {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+}
+
+div.yesNoFlowPanel {
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+}
+
+div.rightHandMessage {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* todo There should be a better way of doing this then setting height to 5000px */
+div.leftHandFlowPanel {
+   background-color: wheat;
+   border-collapse: collapse;
+   border-left-color: black;
+   border-left-style: solid;
+   border-left-width: 1px;
+   border-right-color: black;
+   border-right-style: solid;
+   border-right-width: 1px;
+   color: black;
+   left: 0px;
+   position: absolute;
+   top: 38px;
+   width: 200px;
+   height: 5000px;
+}
+
+/* todo There should be a better way of doing this then setting height to 5000px */
+div.leftHandFlowPanelNoLeft {
+   left: 0px;
+   position: absolute;
+   top: 38px;
+   width: 200px;
+   height: 5000px;
+}
+
+div.rightHandFlowPanel {
+   border-collapse: collapse;
+   left: 200px;
+   position: absolute;
+   top: 60px;
+   width: 1024px
+}
+
+div.rightHandFlowPanelNoLeft {
+   border-collapse: collapse;
+   left: 0px;
+   position: absolute;
+   top: 60px;
+   width: 1024px
+}
+
+div.controlFlowPanel {
+   left: 201px;
+   position: absolute;
+   top: 38px;
+   width: 800px
+}
+
+div.controlFlowPanelNoLeft {
+   left: 0px;
+   position: absolute;
+   top: 38px;
+   width: 800px
+}
+
+div.buttonControlPanelFlowPanel {
+    left: 0px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+}
+
+div.transferFlowPanel {
+   left: 10px;
+   position: absolute;
+   top: 10px
+}
+
+div.activeTreeItem {
+   cursor: pointer;
+}
+
+div.editableLabel {
+   cursor: pointer;
+}
+
+div.titleLabel {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100%
+}
+
+hr {
+   text-align: left;
+   width: 100%
+}
+
+textarea.auditingArea {
+    background-color: #FFF5EE;
+ }
+
+
+input {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   color: #003300;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: bold;
+   width: 60px
+}
+
+select {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   color: #003300;
+   font-size: 12px;
+   font-style: normal;
+   width: 100px
+}
+
+table.dateFlowPanel {
+    position: relative;
+    left: 250px;
+}
+
+table.versionFlowPanel {
+    position: relative;
+    left: 275px;
+}
+
+table.cycleFlowPanel {
+    position: relative;
+    left: 300px;
+}
+
+table.accountTypeFlowPanel {
+    position: relative;
+    left: 325px;
+}
+
+table.invoiceTypeFlowPanel {
+    position: relative;
+    left: 300px;
+}
+
+table.invoiceFlowPanel {
+    position: relative;
+    left: 325px;
+}
+
+table.accountNumberFlowPanel {
+    position: relative;
+    left: 350px;
+}
+
+div.leftHandControlFlowPanel {
+    text-align: center
+}
+
+select.dateListBox {
+   width: 100px;
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   color: #003300;
+   font-family: Verdana,Arial,Helvetica,sans-serif;
+   font-size: 12px;
+   font-style: italic;
+}
+
+div.diagnosticHeaderLabel {
+    font-weight: bold;
+}
+
+div.miscHeaderLabel {
+    font-weight: bold;
+}
+
+div.topLineHeaderLabel {
+    font-weight: bold;
+}
+
+div.diagnosticValueLabel {
+    font-style: italic;
+}
+
+div.miscValueLabel {
+    font-style: italic;
+}
+
+div.topLineValueLabel {
+    font-style: italic;
+}
+
+div.controlFlowPanel {
+    text-align: center
+}
+
+div.diagnosticFlowPanel {
+   font-size: 12px
+}
+
+div.miscFlowPanel {
+   font-size: 12px
+}
+
+div.userNameLabel {
+   text-align: center
+}
+
+button.hideLeftHandFlowPanelButton {
+  position: absolute;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+}
+
+button.showLeftHandFlowPanelButton {
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+}
+
+div.adminUserLabel {
+   text-align: center;
+    color: #0000cc;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button.search {
+   left: 100px;
+   position: absolute;
+   width: 75px
+}
+
+button.prevButton {
+    width: 75px;
+}
+
+button.nextButton {
+    width: 75px;
+}
+
+
+select.dropdown {
+   border-color: #000000;
+   border-style: solid;
+   border-width: 1px;
+   color: #003300;
+   font-family: Verdana,Arial,Helvetica,sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: bold;
+   width: 150px
+}
+
+input.searchDatePicker {
+    width: 100px
+}
+
+input.accountOrNameTextBox {
+    width: 175px
+}
+
+input.TextBox250 {
+    width: 250px;
+}
+
+input.TextBox200 {
+    width: 200px;
+}
+
+input.TextBox150 {
+    width: 150px;
+}
+
+input.TextBox100 {
+    width: 100px;
+}
+
+input.TextBox50 {
+    width: 50px;
+}
+
+select.ListBox50 {
+    width: 50px;
+}
+
+select.ListBox150 {
+    width: 150px;
+}
+
+select.ListBox200 {
+    width: 200px;
+}
+
+select.ListBox400 {
+    width: 400px;
+}
+
+button.deleteButton {
+    width: 15px;
+    font-size: 8px;
+}
+
+button.addButton {
+    width: 15px;
+    font-size: 8px;
+}
+
+
+table.lineItemTable {
+    font-size: 12px;
+    border-width: 1px;
+    border-style: none;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+table.lineItemTable td {
+    border-width: 1px;
+    padding: 1px;
+    border-style: inset;
+    border-color: gray;
+}
+
+td.invoicePaymentAdd-Header {
+    width: 25px;
+    font-weight: bold;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.invoicePaymentDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.invoicePaymentDescription-Header {
+    width: 775px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.invoicePaymentAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.invoicePaymentDelete {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+td.invoicePaymentDate {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.invoicePaymentDescription {
+    width: 775px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.invoicePaymentAmount {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.invoicePaymentDate-Total {
+    width: 100px;
+    font-weight: bold;
+}
+
+td.invoicePaymentDescription-Total {
+    width: 775px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+td.invoicePaymentAmount-Total {
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
+
+td.balanceDescription-Header {
+    width: 875px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+td.balanceAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+td.balanceDescription {
+    width: 875px;
+    word-break: break-all;
+}
+
+td.balanceAmount {
+    width: 125px;
+    text-align: right;
+}
+
+td.balanceDescription-Discount {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ff9999;
+}
+
+td.balanceAmount-Discount {
+    width: 125px;
+    text-align: right;
+    background-color: #ff9999;
+}
+
+td.balanceDescription-DebitAdjustment {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ff9999;
+}
+
+td.balanceAmount-DebitAdjustment {
+    width: 125px;
+    text-align: right;
+    background-color: #ff9999;
+}
+
+td.balanceDescription-Surcharge {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.balanceAmount-Surcharge {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.balanceDescription-BalanceForward {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.balanceAmount-BalanceForward {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.balanceDescription-CreditAdjustment {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.balanceAmount-CreditAdjustment {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.balanceDescription-Payment {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.balanceAmount-Payment {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.balanceDescription-LineItem {
+    width: 875px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.balanceAmount-LineItem {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.balanceDescription-Total {
+    width: 875px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+td.balanceAmount-Total {
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
+
+td.lineItemAdd-Header {
+    width: 25px;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.lineItemDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemPublication-Header {
+    width: 250px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemAdSize-Header {
+    width: 150px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemCol-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemDep-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemMU-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemPPQ-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemTR-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemDetail-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemDelete {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center
+}
+
+td.lineItemDate {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.lineItemPublication {
+    width: 250px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.lineItemAdSize {
+    width: 150px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.lineItemColumns {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemAdDepth {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemMeasuredUnit {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemPrePrintQty {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemTimesRun {
+    background-color: #ccffcc;
+    width: 50px;
+}
+
+td.lineItemDetail {
+    width: 125px;
+    background-color: #ccffcc;
+}
+
+td.lineItemAmount {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+
+td.lineItemSurchargeAdd-Header {
+    width: 25px;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.lineItemSurchargeDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemSurchargeDescription-Header {
+    width: 775px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemSurchargeAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemSurchargeDelete {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+td.lineItemSurchargeDate {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.lineItemSurchargeDescription {
+    width: 775px;
+    background-color: #ccffcc;
+}
+
+td.lineItemSurchargeAmount {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.lineItemDiscountAdd-Header {
+    width: 25px;
+    background-color: #ff0033;
+    text-align: center;
+}
+
+td.lineItemDiscountDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.lineItemDiscountDescription-Header {
+    width: 775px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.lineItemDiscountAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.lineItemDiscountDelete {
+    width: 25px;
+    background-color: #ff9999;
+    text-align: center;
+}
+
+td.lineItemDiscountDate {
+    width: 75px;
+    background-color: #ff9999;
+}
+
+td.lineItemDiscountDescription {
+    width: 775px;
+    background-color: #ff9999;
+}
+
+td.lineItemDiscountAmount {
+    width: 125px;
+    text-align: right;
+    background-color: #ff9999;
+}
+
+td.lineItemBalanceDescription-Header {
+    font-weight: bold;
+    background-color: #CCCCCC;
+    width: 875px;
+}
+
+td.lineItemBalanceAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+td.lineItemBalanceDescription-Header {
+    font-weight: bold;
+    background-color: #CCCCCC;
+    width: 875px;
+}
+
+td.lineItemBalanceAmount-Header {
+    font-weight: bold;
+    background-color: #CCCCCC;
+    width: 125px;
+}
+
+td.lineItemBalanceDescription-Item {
+    background-color: #ccffcc;
+    width: 875px;
+}
+
+td.lineItemBalanceAmount-Item {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.lineItemBalanceDescription-Discount {
+    background-color: #ff9999;
+    width: 875px;
+}
+
+td.lineItemBalanceAmount-Discount {
+    width: 125px;
+    background-color: #ff9999;
+    text-align: right;
+}
+
+td.lineItemBalanceDescription-Surcharge {
+    background-color: #ccffcc;
+    width: 875px;
+}
+
+td.lineItemBalanceAmount-Surcharge {
+    width: 125px;
+    background-color: #ccffcc;
+    text-align: right;
+}
+
+td.lineItemBalanceDescription-Total {
+    width: 875px;
+    font-weight: bold;
+}
+
+td.lineItemBalanceAmount-Total {
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
+
+td.statementPaymentAdd-Header {
+    width: 25px;
+    font-weight: bold;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.statementPaymentDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementPaymentDescription-Header {
+    width: 775px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementPaymentAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementPaymentDelete {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+td.statementPaymentDate {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.statementPaymentDescription {
+    width: 775px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.statementPaymentAmount {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.statementPaymentDate-Total {
+    width: 100px;
+    font-weight: bold;
+}
+
+td.statementPaymentDescription-Total {
+    width: 775px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+td.statementPaymentAmount-Total {
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
+
+td.statementAdjustmentAdd-Header-Debit {
+    width: 25px;
+    font-weight: bold;
+    background-color: #ff0033;
+    text-align: center;
+}
+
+td.statementAdjustmentDate-Header-Debit {
+    width: 75px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.statementAdjustmentCDDate-Header-Debit {
+    width: 75px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.statementAdjustmentDescription-Header-Debit {
+    width: 700px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.statementAdjustmentAmount-Header-Debit {
+    width: 125px;
+    font-weight: bold;
+    background-color: #ff0033;
+}
+
+td.statementAdjustmentAdd-Header-Credit {
+    width: 25px;
+    font-weight: bold;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.statementAdjustmentDate-Header-Credit {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementAdjustmentCDDate-Header-Credit {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementAdjustmentDescription-Header-Credit {
+    width: 700px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.statementAdjustmentAmount-Header-Credit {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+
+td.statementAdjustmentDelete-Credit {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+td.statementAdjustmentDate-Credit {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.statementAdjustmentCDDate-Credit {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.statementAdjustmentDescription-Credit {
+    width: 700px;
+    word-break: break-all;
+    background-color: #ccffcc;
+}
+
+td.statementAdjustmentAmount-Credit {
+    width: 125px;
+    text-align: right;
+    background-color: #ccffcc;
+}
+
+td.statementAdjustmentDelete-Debit {
+    width: 25px;
+    background-color: #ff9999;
+    text-align: center;
+}
+
+td.statementAdjustmentDate-Debit {
+    width: 75px;
+    background-color: #ff9999;
+}
+
+td.statementAdjustmentCDDate-Debit {
+    width: 75px;
+    background-color: #ff9999;
+}
+
+td.statementAdjustmentDescription-Debit {
+    width: 700px;
+    word-break: break-all;
+    background-color: #ff9999;
+}
+
+td.statementAdjustmentAmount-Debit {
+    width: 125px;
+    text-align: right;
+    background-color: #ff9999;
+}
+
+
+td.statementAdjustmentDescription-Total {
+    width: 875px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+td.statementAdjustmentAmount-Total {
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
+
+td.lineItemStatementAdd-Header {
+    width: 25px;
+    background-color: #00cc33;
+    text-align: center;
+}
+
+td.lineItemStatementDate-Header {
+    width: 75px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementPublication-Header {
+    width: 175px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementDescription-Header {
+    width: 175px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementInvoice-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementPO-Header {
+    width: 50px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+
+td.lineItemStatementCol-Header {
+    width: 40px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementDep-Header {
+    width: 40px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementMU-Header {
+    width: 40px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementPPQ-Header {
+    width: 40px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementTR-Header {
+    width: 40px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementDetail-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementAmount-Header {
+    width: 125px;
+    font-weight: bold;
+    background-color: #00cc33;
+}
+
+td.lineItemStatementDelete {
+    width: 25px;
+    background-color: #ccffcc;
+    text-align: center;
+}
+
+td.lineItemStatementDate {
+    width: 75px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementPublication {
+    width: 175px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementDescription {
+    width: 175px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementInvoice {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementPO {
+    width: 50px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementCol {
+    width: 40px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementDep {
+    width: 40px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementMU {
+    width: 40px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementPPQ {
+    width: 40px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementTimesRun {
+    width: 40px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementDetail {
+    width: 125px;
+    background-color: #ccffcc;
+}
+
+td.lineItemStatementAmount {
+    width: 125px;
+    background-color: #ccffcc;
+}
+

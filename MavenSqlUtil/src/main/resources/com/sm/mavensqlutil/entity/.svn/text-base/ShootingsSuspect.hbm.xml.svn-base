@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.ShootingsSuspect" table="shootings_suspect" catalog="django_ois">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="incidentId" type="int">
+            <column name="incident_id" not-null="true" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="100" not-null="true" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middle_name" length="100" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="100" not-null="true" />
+        </property>
+        <property name="age" type="java.lang.Integer">
+            <column name="age" />
+        </property>
+        <property name="raceId" type="java.lang.Integer">
+            <column name="race_id" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" not-null="true" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" not-null="true" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="2" not-null="true" />
+        </property>
+        <property name="assaultedOthers" type="boolean">
+            <column name="assaulted_others" not-null="true" />
+        </property>
+        <property name="suicidal" type="boolean">
+            <column name="suicidal" not-null="true" />
+        </property>
+        <property name="mentallyIll" type="boolean">
+            <column name="mentally_ill" not-null="true" />
+        </property>
+        <property name="criminalBackground" type="boolean">
+            <column name="criminal_background" not-null="true" />
+        </property>
+        <property name="violentCriminalHistory" type="boolean">
+            <column name="violent_criminal_history" not-null="true" />
+        </property>
+        <property name="printImage" type="string">
+            <column name="print_image" />
+        </property>
+        <property name="webImage" type="string">
+            <column name="web_image" />
+        </property>
+        <property name="stolenGun" type="boolean">
+            <column name="stolen_gun" not-null="true" />
+        </property>
+        <property name="armed1Id" type="java.lang.Integer">
+            <column name="armed1_id" />
+        </property>
+        <property name="armed2Id" type="java.lang.Integer">
+            <column name="armed2_id" />
+        </property>
+        <property name="armed3Id" type="java.lang.Integer">
+            <column name="armed3_id" />
+        </property>
+        <property name="armed4Id" type="java.lang.Integer">
+            <column name="armed4_id" />
+        </property>
+        <property name="tox1Id" type="java.lang.Integer">
+            <column name="tox1_id" />
+        </property>
+        <property name="tox2Id" type="java.lang.Integer">
+            <column name="tox2_id" />
+        </property>
+        <property name="tox3Id" type="java.lang.Integer">
+            <column name="tox3_id" />
+        </property>
+        <property name="tox4Id" type="java.lang.Integer">
+            <column name="tox4_id" />
+        </property>
+        <property name="crime1" type="string">
+            <column name="crime1" not-null="true" />
+        </property>
+        <property name="crime2" type="string">
+            <column name="crime2" not-null="true" />
+        </property>
+        <property name="crime3" type="string">
+            <column name="crime3" not-null="true" />
+        </property>
+        <property name="crime4" type="string">
+            <column name="crime4" not-null="true" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" not-null="true" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="1" not-null="true" />
+        </property>
+        <property name="criminalHistory" type="string">
+            <column name="criminal_history" length="1" not-null="true" />
+        </property>
+        <property name="militaryOrPoliceExperience" type="string">
+            <column name="military_or_police_experience" length="1" not-null="true" />
+        </property>
+        <property name="whereShot1" type="string">
+            <column name="where_shot1" not-null="true" />
+        </property>
+        <property name="whereShot2" type="string">
+            <column name="where_shot2" not-null="true" />
+        </property>
+        <property name="whereShot3" type="string">
+            <column name="where_shot3" not-null="true" />
+        </property>
+        <property name="whereShot4" type="string">
+            <column name="where_shot4" not-null="true" />
+        </property>
+        <property name="whereShot5" type="string">
+            <column name="where_shot5" not-null="true" />
+        </property>
+        <property name="whereShot6" type="string">
+            <column name="where_shot6" not-null="true" />
+        </property>
+        <property name="suspectCrime1Id" type="java.lang.Integer">
+            <column name="suspect_crime1_id" />
+        </property>
+        <property name="suspectCrime2Id" type="java.lang.Integer">
+            <column name="suspect_crime2_id" />
+        </property>
+        <property name="suspectCrime3Id" type="java.lang.Integer">
+            <column name="suspect_crime3_id" />
+        </property>
+        <property name="suspectCrime4Id" type="java.lang.Integer">
+            <column name="suspect_crime4_id" />
+        </property>
+        <property name="suspectlistId" type="java.lang.Integer">
+            <column name="suspectlist_id" />
+        </property>
+        <property name="photoId" type="java.lang.Integer">
+            <column name="photo_id" />
+        </property>
+    </class>
+</hibernate-mapping>

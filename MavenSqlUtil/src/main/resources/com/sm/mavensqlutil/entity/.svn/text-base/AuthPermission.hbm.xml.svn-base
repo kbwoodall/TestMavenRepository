@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.AuthPermission" table="auth_permission" catalog="django_ois">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="50" not-null="true" />
+        </property>
+        <property name="contentTypeId" type="int">
+            <column name="content_type_id" not-null="true" />
+        </property>
+        <property name="codename" type="string">
+            <column name="codename" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

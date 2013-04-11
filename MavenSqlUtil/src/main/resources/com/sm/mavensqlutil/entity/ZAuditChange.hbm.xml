@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.ZAuditChange" table="z_AuditChange" catalog="django_ois">
+        <id name="acid" type="java.lang.Integer">
+            <column name="ACId" />
+            <generator class="identity" />
+        </id>
+        <property name="acdate" type="timestamp">
+            <column name="ACDate" length="19" not-null="true" />
+        </property>
+        <property name="acsource" type="string">
+            <column name="ACSource" length="45" />
+        </property>
+        <property name="acaction" type="string">
+            <column name="ACAction" length="10" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

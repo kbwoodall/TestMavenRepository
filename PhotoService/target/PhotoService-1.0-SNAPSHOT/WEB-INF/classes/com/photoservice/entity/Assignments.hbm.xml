@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 23, 2012 2:14:48 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.photoservice.entity.Assignments" table="Assignments" catalog="photo">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="assignmentType" type="string">
+            <column name="assignmentType" length="10" />
+        </property>
+        <property name="created" type="date">
+            <column name="created" length="10" />
+        </property>
+        <property name="assignmentDue" type="date">
+            <column name="assignmentDue" length="10" />
+        </property>
+        <property name="runDate" type="date">
+            <column name="runDate" length="10" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="300" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="300" />
+        </property>
+        <property name="canBeRescheduled" type="java.lang.Boolean">
+            <column name="canBeRescheduled" />
+        </property>
+        <property name="reporterThere" type="java.lang.Boolean">
+            <column name="reporterThere" />
+        </property>
+        <property name="shotsNeeded" type="java.lang.Boolean">
+            <column name="shotsNeeded" />
+        </property>
+        <property name="photographerName" type="string">
+            <column name="photographerName" length="300" />
+        </property>
+        <property name="photographerPhone" type="string">
+            <column name="photographerPhone" length="10" />
+        </property>
+        <property name="photoNotes" type="string">
+            <column name="photoNotes" length="1000" />
+        </property>
+        <property name="reporterName" type="string">
+            <column name="reporterName" length="300" />
+        </property>
+        <property name="reporterPhone" type="string">
+            <column name="reporterPhone" length="10" />
+        </property>
+        <property name="editorName" type="string">
+            <column name="editorName" length="300" />
+        </property>
+        <property name="editorPhone" type="string">
+            <column name="editorPhone" length="10" />
+        </property>
+        <property name="contactName" type="string">
+            <column name="contactName" length="300" />
+        </property>
+        <property name="contactPhone" type="string">
+            <column name="contactPhone" length="10" />
+        </property>
+        <property name="storyIdea" type="string">
+            <column name="storyIdea" length="1000" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" length="1000" />
+        </property>
+        <property name="sectionName" type="string">
+            <column name="sectionName" length="300" />
+        </property>
+        <property name="photoLocation" type="string">
+            <column name="photoLocation" length="1000" />
+        </property>
+        <property name="photoType" type="string">
+            <column name="photoType" length="10" />
+        </property>
+        <property name="eventDate" type="date">
+            <column name="eventDate" length="10" />
+        </property>
+        <property name="requestor" type="string">
+            <column name="requestor" length="1000" />
+        </property>
+    </class>
+</hibernate-mapping>

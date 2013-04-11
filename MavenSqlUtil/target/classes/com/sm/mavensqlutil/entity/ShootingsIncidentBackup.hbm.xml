@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.ShootingsIncidentBackup" table="shootings_incident_backup" catalog="django_ois">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="incidentDate" type="timestamp">
+            <column name="incident_date" length="19" not-null="true" />
+        </property>
+        <property name="location" type="string">
+            <column name="location" not-null="true" />
+        </property>
+        <property name="zip" type="string">
+            <column name="zip" length="10" not-null="true" />
+        </property>
+        <property name="areaCommandId" type="java.lang.Integer">
+            <column name="area_command_id" />
+        </property>
+        <property name="latitude" type="java.lang.Double">
+            <column name="latitude" precision="22" scale="0" />
+        </property>
+        <property name="longitude" type="java.lang.Double">
+            <column name="longitude" precision="22" scale="0" />
+        </property>
+        <property name="shotsFired" type="java.lang.Integer">
+            <column name="shots_fired" />
+        </property>
+        <property name="shotsToSuspect" type="java.lang.Integer">
+            <column name="shots_to_suspect" />
+        </property>
+        <property name="closeRange" type="boolean">
+            <column name="close_range" not-null="true" />
+        </property>
+        <property name="accidentalDischarge" type="boolean">
+            <column name="accidental_discharge" not-null="true" />
+        </property>
+        <property name="officerInjury" type="boolean">
+            <column name="officer_injury" not-null="true" />
+        </property>
+        <property name="physicalStruggle" type="boolean">
+            <column name="physical_struggle" not-null="true" />
+        </property>
+        <property name="suspectFired" type="boolean">
+            <column name="suspect_fired" not-null="true" />
+        </property>
+        <property name="inquestResult" type="string">
+            <column name="inquest_result" length="1" not-null="true" />
+        </property>
+        <property name="inquestUnanimous" type="boolean">
+            <column name="inquest_unanimous" not-null="true" />
+        </property>
+        <property name="inquestDate" type="date">
+            <column name="inquest_date" length="10" />
+        </property>
+        <property name="footPursuit" type="boolean">
+            <column name="foot_pursuit" not-null="true" />
+        </property>
+        <property name="carPursuit" type="boolean">
+            <column name="car_pursuit" not-null="true" />
+        </property>
+        <property name="incidentLocation" type="string">
+            <column name="incident_location" length="1" not-null="true" />
+        </property>
+        <property name="initialContact" type="string">
+            <column name="initial_contact" length="2" not-null="true" />
+        </property>
+        <property name="fatalIncident" type="boolean">
+            <column name="fatal_incident" not-null="true" />
+        </property>
+        <property name="natureOfIncident" type="string">
+            <column name="nature_of_incident" not-null="true" />
+        </property>
+        <property name="summaryOfIncident" type="string">
+            <column name="summary_of_incident" not-null="true" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" not-null="true" />
+        </property>
+        <property name="officerWeapon1" type="string">
+            <column name="officer_weapon1" not-null="true" />
+        </property>
+        <property name="officerWeapon2" type="string">
+            <column name="officer_weapon2" not-null="true" />
+        </property>
+        <property name="officerWeapon3" type="string">
+            <column name="officer_weapon3" not-null="true" />
+        </property>
+        <property name="officerWeapon4" type="string">
+            <column name="officer_weapon4" not-null="true" />
+        </property>
+        <property name="officerWeapon5" type="string">
+            <column name="officer_weapon5" not-null="true" />
+        </property>
+        <property name="officerWeapon6" type="string">
+            <column name="officer_weapon6" not-null="true" />
+        </property>
+        <property name="officerWeapon7" type="string">
+            <column name="officer_weapon7" not-null="true" />
+        </property>
+        <property name="officerWeapon8" type="string">
+            <column name="officer_weapon8" not-null="true" />
+        </property>
+        <property name="whereShot1" type="string">
+            <column name="where_shot1" not-null="true" />
+        </property>
+        <property name="whereShot2" type="string">
+            <column name="where_shot2" not-null="true" />
+        </property>
+        <property name="whereShot3" type="string">
+            <column name="where_shot3" not-null="true" />
+        </property>
+        <property name="whereShot4" type="string">
+            <column name="where_shot4" not-null="true" />
+        </property>
+        <property name="whereShot5" type="string">
+            <column name="where_shot5" not-null="true" />
+        </property>
+        <property name="whereShot6" type="string">
+            <column name="where_shot6" not-null="true" />
+        </property>
+        <property name="nonLethalForce1" type="string">
+            <column name="non_lethal_force1" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce2" type="string">
+            <column name="non_lethal_force2" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce3" type="string">
+            <column name="non_lethal_force3" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce4" type="string">
+            <column name="non_lethal_force4" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce5" type="string">
+            <column name="non_lethal_force5" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce6" type="string">
+            <column name="non_lethal_force6" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce7" type="string">
+            <column name="non_lethal_force7" length="2" not-null="true" />
+        </property>
+        <property name="nonLethalForce8" type="string">
+            <column name="non_lethal_force8" length="2" not-null="true" />
+        </property>
+        <property name="fatalIncidentType" type="string">
+            <column name="fatal_incident_type" length="1" not-null="true" />
+        </property>
+        <property name="shotsFiredByPolice" type="java.lang.Integer">
+            <column name="shots_fired_by_police" />
+        </property>
+        <property name="shotsHitSuspect" type="java.lang.Integer">
+            <column name="shots_hit_suspect" />
+        </property>
+        <property name="callTypeId" type="java.lang.Integer">
+            <column name="call_type_id" />
+        </property>
+        <property name="lawsuitFiled" type="boolean">
+            <column name="lawsuit_filed" not-null="true" />
+        </property>
+        <property name="editorialStatus" type="string">
+            <column name="editorial_status" length="1" not-null="true" />
+        </property>
+        <property name="suicideByCop" type="boolean">
+            <column name="suicide_by_cop" not-null="true" />
+        </property>
+        <property name="suicideByCopNotes" type="string">
+            <column name="suicide_by_cop_notes" not-null="true" />
+        </property>
+        <property name="nonPoliceWitnesses" type="boolean">
+            <column name="non_police_witnesses" not-null="true" />
+        </property>
+        <property name="privateSetting" type="boolean">
+            <column name="private_setting" not-null="true" />
+        </property>
+        <property name="dateModified" type="timestamp">
+            <column name="date_modified" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

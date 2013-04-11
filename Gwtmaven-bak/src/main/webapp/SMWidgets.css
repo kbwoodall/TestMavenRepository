@@ -1,0 +1,13 @@
+div.SMHeaderBar {
+    left: 0px;
+    position: absolute;
+    top: 30px
+}
+
+div.SMPageTitleLabel {
+    font-size: 18px;
+    left: 9px;
+    position: absolute;
+    top: 14px;
+    width: 200px
+}

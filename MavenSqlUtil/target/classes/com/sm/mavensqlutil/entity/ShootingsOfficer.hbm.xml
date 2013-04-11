@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.ShootingsOfficer" table="shootings_officer" catalog="django_ois">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="incidentId" type="int">
+            <column name="incident_id" not-null="true" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="100" not-null="true" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middle_name" length="100" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="100" not-null="true" />
+        </property>
+        <property name="agencyId" type="java.lang.Integer">
+            <column name="agency_id" />
+        </property>
+        <property name="ageAtShooting" type="java.lang.Integer">
+            <column name="age_at_shooting" />
+        </property>
+        <property name="shotsFired" type="java.lang.Integer">
+            <column name="shots_fired" />
+        </property>
+        <property name="dob" type="date">
+            <column name="dob" length="10" />
+        </property>
+        <property name="raceId" type="java.lang.Integer">
+            <column name="race_id" />
+        </property>
+        <property name="stillOnForce" type="boolean">
+            <column name="still_on_force" not-null="true" />
+        </property>
+        <property name="yearsOnForce" type="java.lang.Double">
+            <column name="years_on_force" precision="22" scale="0" />
+        </property>
+        <property name="inUniform" type="boolean">
+            <column name="in_uniform" not-null="true" />
+        </property>
+        <property name="officerShot" type="boolean">
+            <column name="officer_shot" not-null="true" />
+        </property>
+        <property name="partner" type="string">
+            <column name="partner" not-null="true" />
+        </property>
+        <property name="printImage" type="string">
+            <column name="print_image" />
+        </property>
+        <property name="webImage" type="string">
+            <column name="web_image" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" not-null="true" />
+        </property>
+        <property name="rankId" type="java.lang.Integer">
+            <column name="rank_id" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="1" not-null="true" />
+        </property>
+        <property name="inPlainClothes" type="boolean">
+            <column name="in_plain_clothes" not-null="true" />
+        </property>
+        <property name="shotsFiredByPolice" type="java.lang.Integer">
+            <column name="shots_fired_by_police" />
+        </property>
+        <property name="height" type="java.lang.Integer">
+            <column name="height" />
+        </property>
+        <property name="weight" type="java.lang.Integer">
+            <column name="weight" />
+        </property>
+        <property name="officerInjury" type="string">
+            <column name="officer_injury" length="1" not-null="true" />
+        </property>
+        <property name="weapon1Id" type="java.lang.Integer">
+            <column name="weapon1_id" />
+        </property>
+        <property name="weapon2Id" type="java.lang.Integer">
+            <column name="weapon2_id" />
+        </property>
+        <property name="weapon3Id" type="java.lang.Integer">
+            <column name="weapon3_id" />
+        </property>
+        <property name="weapon4Id" type="java.lang.Integer">
+            <column name="weapon4_id" />
+        </property>
+        <property name="weapon5Id" type="java.lang.Integer">
+            <column name="weapon5_id" />
+        </property>
+        <property name="weapon6Id" type="java.lang.Integer">
+            <column name="weapon6_id" />
+        </property>
+        <property name="weapon7Id" type="java.lang.Integer">
+            <column name="weapon7_id" />
+        </property>
+        <property name="weapon8Id" type="java.lang.Integer">
+            <column name="weapon8_id" />
+        </property>
+        <property name="areaCommandId" type="java.lang.Integer">
+            <column name="area_command_id" />
+        </property>
+        <property name="officerlistId" type="java.lang.Integer">
+            <column name="officerlist_id" />
+        </property>
+        <property name="photoId" type="java.lang.Integer">
+            <column name="photo_id" />
+        </property>
+    </class>
+</hibernate-mapping>

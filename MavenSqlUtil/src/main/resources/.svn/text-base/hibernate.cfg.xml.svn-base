@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://mysql01.stephensmedia.com:3306/django_ois</property>
+    <property name="hibernate.connection.username">django</property>
+    <property name="hibernate.connection.password">Wh|+3Sp@&lt;3</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsAreacommand.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsAgency.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsRank.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsSuspect.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsWeapon.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsSubstance.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthUser.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsRace.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsCrime.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/DjangoSession.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsOfficerlist.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthUserUserPermissions.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsIncident.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ZTestTriggerSource.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthGroupPermissions.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthUserGroups.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthPermission.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsSuspectweapon.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ZAuditChange.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/DjangoSite.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsIncidentBackup.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsSuspectlist.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsLesslethalforce.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsOfficer.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsUpdated.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthMessage.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/DjangoAdminLog.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsPolicereport.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsVideo.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/AuthGroup.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/DjangoContentType.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsCalltype.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsOfficerweapon.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsStory.hbm.xml"/>
+    <mapping resource="com/sm/mavensqlutil/entity/ShootingsOfficeragency.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

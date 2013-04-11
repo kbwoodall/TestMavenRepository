@@ -1,0 +1,112 @@
+div.searchStatementsLabel {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.searchStatements {
+    width: 100%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+}
+
+table.searchStatements {
+    left: 200px;
+    width: 900px;
+}
+
+table.searchStatements td  {
+    border-bottom: solid #93BEE2 1px;
+    border-right: 1px solid #93BEE2;
+    border-left: 1px solid #93BEE2;
+    border-top: 1px solid #93BEE2;
+}
+
+tr.searchStatementsHeader {
+    background-color: wheat;
+    color: #000000;
+    cursor: hand;
+    font-size: 14px;
+}
+
+tr.searchStatementsRow1 {
+    background-color: #cccccc;
+    color: black;
+    font-size: 12px;
+    text-align: right
+}
+
+tr.searchStatementsRow2 {
+    background-color: #ccccff;
+    color: black;
+    font-size: 12px;
+    text-align: right
+}
+
+button.searchStatements {
+    width: 16px;
+    height: 16px;
+}
+
+
+div.searchInvoicesLabel {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.searchInvoices {
+    width: 100%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+}
+
+table.searchInvoices {
+    left: 200px;
+    width: 900px;
+}
+
+table.searchInvoices td  {
+    border-bottom: solid #93BEE2 1px;
+    border-right: 1px solid #93BEE2;
+    border-left: 1px solid #93BEE2;
+    border-top: 1px solid #93BEE2;
+}
+
+tr.searchInvoicesHeader {
+    background-color: wheat;
+    color: #000000;
+    cursor: hand;
+    font-size: 14px;
+}
+
+tr.searchInvoicesRow1 {
+    background-color: #cccccc;
+    color: black;
+    font-size: 12px;
+    text-align: right
+}
+
+tr.searchInvoicesRow2 {
+    background-color: #ccccff;
+    color: black;
+    font-size: 12px;
+    text-align: right
+}
+
+button.searchInvoices {
+    width: 16px;
+    height: 16px;
+}
+
+button.searchInvoicesHistory {
+   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#550000FF', EndColorStr='#55FFFF00');  
+} 
+
+button.searchStatementsHistory {
+   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#550000FF', EndColorStr='#55FFFF00');  
+} 

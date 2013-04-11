@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <inherits name="com.google.gwt.http.HTTP" />
+    <inherits name="com.google.gwt.user.User"/>    
+    <inherits name="org.gwtwidgets.WidgetLibrary"/>        
+
+    <entry-point class="com.sm.gwtmaven.client.MainEntryPoint"/>
+    <stylesheet src="lvrj.css"/>
+	<!-- Do not define servlets here, use web.xml -->
+</module>
+

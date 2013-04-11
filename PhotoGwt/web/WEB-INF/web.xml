@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>GWTService</servlet-name>
+        <servlet-class>com.sm.photo.server.photo.GWTServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GWTServiceJson</servlet-name>
+        <servlet-class>com.sm.photo.server.GWTServiceJsonImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GWTServiceEdit</servlet-name>
+        <servlet-class>com.sm.photo.server.GWTServiceEditImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GWTService</servlet-name>
+        <url-pattern>/com.sm.photo.Main/photo/photoservice</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GWTServiceJson</servlet-name>
+        <url-pattern>/com.sm.photo.Main/gwtservicejson</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GWTServiceEdit</servlet-name>
+        <url-pattern>/com.sm.photo.Main/gwtserviceedit</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>welcomeGWT.html</welcome-file>
+    </welcome-file-list>
+</web-app>

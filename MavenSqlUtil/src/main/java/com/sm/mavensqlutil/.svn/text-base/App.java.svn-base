@@ -1,0 +1,49 @@
+package com.sm.mavensqlutil;
+
+/**
+ * Query from django.ois
+ *
+ */
+import com.sm.mavensqlutil.util.HibernateUtil;
+import org.hibernate.*;
+import java.util.*;
+import com.sm.mavensqlutil.entity.ShootingsIncident;
+
+public class App {
+
+    static Session session = HibernateUtil.getSessionFactory().openSession();
+
+    public List getShootingsIncidentList() {
+        try {
+            session.beginTransaction();
+            Query q = session.createQuery("from ShootingsIncident");
+            List resultsList = q.list();  
+            return resultsList;
+        } catch (HibernateException he) {
+            return null;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Running query from django.ois");
+        App app = new App();
+
+        try {   
+            List resultsList = app.getShootingsIncidentList();
+            System.out.println("Number of incidents: " + resultsList.size());
+            
+            List<ShootingsIncident> list;
+            list = resultsList;
+         
+            for (ShootingsIncident si : list) {
+                if (si.getNatureOfIncident().isEmpty()) {
+                    System.out.println("THIS ONE WAS EMPTY");
+                } else {
+                    System.out.println(si.getNatureOfIncident());
+                }
+            }
+            
+        } catch (HibernateException he) {
+        }
+    }
+}

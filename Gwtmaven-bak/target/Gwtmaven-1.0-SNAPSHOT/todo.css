@@ -1,0 +1,57 @@
+button {
+    background-color: #FFFFCC;
+    border: 1px solid;
+    border-bottom-color: #363;
+    border-left-color: #696;
+    border-right-color: #363;
+    border-top-color: #696;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffeeddaa');
+    width: 150px
+}
+
+div.blockingFlowPanel {
+    -moz-opacity: 60;
+    background-color: teal;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    color: #ffffff;
+    filter: alpha(opacity: 60);
+    height: 800px;
+    left: 10px;
+    opacity: 60;
+    position: fixed;
+    text-align: center;
+    top: 10px;
+    vertical-align: middle;
+    visibility: visible;
+    width: 1200px;
+    z-index: 3
+}
+
+div.authenticationFailure {
+    -moz-opacity: 60;
+    background-color: black;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    color: #ffffff;
+    filter: alpha(opacity: 60);
+    height: 800px;
+    left: 10px;
+    opacity: 60;
+    position: fixed;
+    text-align: center;
+    top: 10px;
+    vertical-align: middle;
+    visibility: visible;
+    width: 1200px;
+    z-index: 3
+}

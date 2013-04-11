@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 10, 2012 10:05:41 AM by Hibernate Tools 3.2.1.GA -->
+
+
+<hibernate-mapping>
+    <class name="com.sm.mavensqlutil.entity.AuthUser" table="auth_user" catalog="django_ois">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="30" not-null="true" unique="true" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="30" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="30" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="75" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="128" not-null="true" />
+        </property>
+        <property name="isStaff" type="boolean">
+            <column name="is_staff" not-null="true" />
+        </property>
+        <property name="isActive" type="boolean">
+            <column name="is_active" not-null="true" />
+        </property>
+        <property name="isSuperuser" type="boolean">
+            <column name="is_superuser" not-null="true" />
+        </property>
+        <property name="lastLogin" type="timestamp">
+            <column name="last_login" length="19" not-null="true" />
+        </property>
+        <property name="dateJoined" type="timestamp">
+            <column name="date_joined" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

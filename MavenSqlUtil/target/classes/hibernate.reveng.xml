@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="django_ois"/>
+  <table-filter match-name="z_AuditChange"/>
+  <table-filter match-name="shootings_race"/>
+  <table-filter match-name="shootings_officer"/>
+  <table-filter match-name="shootings_story"/>
+  <table-filter match-name="shootings_video"/>
+  <table-filter match-name="shootings_incident"/>
+  <table-filter match-name="django_session"/>
+  <table-filter match-name="auth_group"/>
+  <table-filter match-name="shootings_suspectlist"/>
+  <table-filter match-name="shootings_officerlist"/>
+  <table-filter match-name="django_content_type"/>
+  <table-filter match-name="shootings_rank"/>
+  <table-filter match-name="shootings_officerweapon"/>
+  <table-filter match-name="shootings_weapon"/>
+  <table-filter match-name="shootings_suspectweapon"/>
+  <table-filter match-name="django_site"/>
+  <table-filter match-name="shootings_updated"/>
+  <table-filter match-name="shootings_officeragency"/>
+  <table-filter match-name="auth_message"/>
+  <table-filter match-name="auth_group_permissions"/>
+  <table-filter match-name="django_admin_log"/>
+  <table-filter match-name="shootings_crime"/>
+  <table-filter match-name="shootings_agency"/>
+  <table-filter match-name="shootings_incident_backup"/>
+  <table-filter match-name="shootings_suspect"/>
+  <table-filter match-name="shootings_lesslethalforce"/>
+  <table-filter match-name="shootings_areacommand"/>
+  <table-filter match-name="shootings_calltype"/>
+  <table-filter match-name="auth_user_user_permissions"/>
+  <table-filter match-name="auth_permission"/>
+  <table-filter match-name="auth_user"/>
+  <table-filter match-name="shootings_substance"/>
+  <table-filter match-name="z_TestTriggerSource"/>
+  <table-filter match-name="auth_user_groups"/>
+  <table-filter match-name="shootings_policereport"/>
+</hibernate-reverse-engineering>

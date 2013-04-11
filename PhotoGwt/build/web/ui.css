@@ -1,0 +1,114 @@
+
+.rj-image {
+     
+    position:absolute;
+    left:500px;
+    top:300px;
+          
+}
+.demo-MenuBar {
+    border: 1px solid #666;
+    margin: 0 auto;
+    background-color: #eee;
+    font-size: 70%;
+    padding: 3px;   
+    
+}    .demo-MenuBar table {
+    border-collapse: separate;
+    border: 1px solid #00f;
+    background-color: #ddd;
+}
+
+.demo-MenuBar .gwt-MenuItem {
+    cursor: hand;
+    cursor: pointer;
+    border: 1px solid #999;
+    background-color: #eee;
+    padding: 2px 10px;
+       
+}
+.demo-MenuBar .gwt-MenuItem-selected {
+    background-color: #fff;
+}
+
+h1 { 
+
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #000000; 
+} 
+
+h2 { 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size: 16px;
+    font-weight: bold; 
+    color: #000000; 
+    border-bottom: 1px solid #C6EC8C; 
+} 
+
+body {    
+    background-color: #F5DEB3;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100%
+}
+
+div.version {
+    font-size: 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+hr {
+    text-align: left;
+    width: 850px
+}
+
+input {
+    text-align: left;
+    width: 250px
+
+}
+
+button {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: #003900;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    width: 10px
+}
+
+select {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: #003300;
+    font-size: 12px;
+    font-style: normal;
+    width: 30px
+}
+
+div.pageTitle {
+    font-size: 18px;
+    left: 9px;
+    position: absolute;
+    top: 14px;
+    width: 165px
+}
+
+div.headerBar {
+    left: 0px;
+    position: absolute;
+    top: 30px
+}
+
+.gwt-button {   
+   font-size: 8pt;
+   width: 50px
+ }
